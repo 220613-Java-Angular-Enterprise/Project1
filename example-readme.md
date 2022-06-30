@@ -25,29 +25,8 @@ To-do list: [`for future iterations`]
 * etc...
 
 ## Getting Started  
-Currently project must be included as local dependency. to do so:
-```shell
-  git clone https://github.com/*your-repo*_p1.git
-  cd *your-repo*_p1
-  mvn install
-```
-Next, place the following inside your project pom.xml file:
-```XML
-  <dependency>
-    <groupId>com.revature</groupId>
-    <artifactId>*your-repo*_p1</artifactId>
-    <version>1.0-SNAPSHOT</version>
-  </dependency>
 
-```
-
-Finally, inside your project structure you need a application.proprties file. 
- (typically located src/main/resources/)
- ``` 
-  url=path/to/database
-  admin-usr=username/of/database
-  admin-pw=password/of/database  
-  ```
+Any Information one would need to utilize your repo
   
 ## Usage  
   ### Annotating classes  
